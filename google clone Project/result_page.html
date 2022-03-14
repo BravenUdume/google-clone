@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Result page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="result_page.css">
+        <link href = "https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700" rel = "stylesheet" />
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="logo">
+                <a href="homepage.html"><img src="images/logo.png"></a>
+            </div>
+            <div class="search_bar">
+                <p><a href="result_page.html">Search...</a></p>
+                <span>
+                    <button class="mic_button"></button>
+                    <button class="search_button"></button>
+                </span>
+            </div>
+            <div class="words">
+                <img src="images/AAA.png">
+            </div>
+            
+        </header>
+        <section class="before_main_body">
+            <div class="middle_nav">
+                
+                <ul>
+                    <li ><a href="#">All</a></li>
+                    <li><a href="#">Web</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Social</a></li>
+                    <li><a href="#">Documents</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="main_body">
+            
+            <div class="left">
+                <span class="filters">
+                    <h3>Filters</h3>
+                </span>
+                <span class="the_by_date">
+        
+                    <span class="by_date">
+                        <p>By Date</p>
+                        <button onclick="myFunction()" class="by_date_arrow"></button>
+                    </span>
+                    <span class="by_date_radio">
+                        <input type="radio" name="by_date" value="Any_Time" checked="checked">Any Time <br/>
+                        <input type="radio" name="by_date" value="Custom_Range">Custom Range<br/>
+                    </span>
+                   <span class="by_date_date">
+                        <input type="datetime-local" value="date">
+                   </span>
+                </span>
+                <span class="the_by_document_type">
+                    <span class="by_date by_document_type">
+                        <p>By Document Type</p>
+                        <button onclick="myFunction()" class="by_date_arrow"></button>
+                    </span>
+                    <span class="by_document_type_type by_date_date">
+                        <input type="text" value="(docx, xls, pdf, etc)" >
+                        <span class="slider_buttons">
+                            <label class="switch">
+                                <input type="checkbox"><p>pdf</p>
+                                <div class="slider round push"></div>
+                            </label>
+                            <label class="switch switch_2">
+                                <input type="checkbox"><p>web</p>
+                                <div class="slider round push"></div>
+                            </label>
+                            <label class="switch switch_3">
+                                <input type="checkbox"><p>docx</p>
+                                <div class="slider round push"></div>
+                            </label>
+                        </span>
+                    </span>
+                </span>
+                <span class="the_by_location">
+                    <span class="by_date by_document_type">
+                        <p>By Location</p>
+                        <button onclick="myFunction()" class="by_date_arrow"></button>
+                    </span>
+                    <span class="by_location_box by_date_date">
+                        <input type="text" value="search location..."><br/>
+                    </span>
+                    <div class="them_checkboxes">
+                        <label class="checkboxx">
+                            <input type="checkbox">Los Angeless
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Lagos
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">London
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Lakeshore
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Lamba
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Licorice
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Landiy
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Limpert
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Lowlife
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Lolita
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                    </div>
+                </span>
+                <span class="the_by_people">
+                    <span class="by_date by_people">
+                        <p>By People</p>
+                        <button onclick="myFunction()" class="by_date_arrow"></button>
+                    </span>
+                    <span class="by_people_box by_date_date">
+                        <input type="text" value="search names..."><br/>
+                    </span>
+                    <div class="them_checkboxes">
+                      <label class="checkboxx">
+                            <input type="checkbox">Giannis Antetokounmpo
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Stephen Curry
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Trey Young
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Kevin Durant
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Zendaya Idk
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Monica Simpson
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Idfk Hisname
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Land=gdon Hope
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Lowlife Cunt
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                        <label class="checkboxx">
+                            <input type="checkbox">Lolita Sexy
+                            <span class="checkboxx_text"></span><br/>
+                        </label>
+                    </div>
+                </span>
+            </div>
+            <div class="middle">
+                <div class="two_texts">
+                    <p class="about">About 3000 Results Found</p>
+                    <h2 class="R">Recommended For You...</h2>
+
+                    <span class="ash_links">
+                        <a href="#">Grant</a>
+                        <a href="#">Health Grant</a>
+                        <a href="#">Affordable Care Act</a>
+                        <a href="#" id="plus_five">+5</a>
+                    </span>
+                </div>
+                <div class="grants_one">
+                    <span class="line">
+                        <a href="#"  class="long_grant">Grants | Official web site of the U.S. Health Resources</a>
+                        <a href="#" class="next_to_grant ash_links">Grant</a>
+                    </span>
+                    <p>Find a Health Center; Query Data; View Fact Sheets; Training & TA Hub. Behavioral<br/>
+                         Health; Care Teams; Child and Adolescent Health; Chronic and ... </p>
+                    <a href="#" class="link_below">www.hrsa.gov/grants/index.html</a>
+                </div>
+                <div class="grants_one grants_two">
+                    <span class="line">
+                        <a href="#"  class="long_grant">Grants & Funding | NIH</a>
+                        <a href="#" class="next_to_grant ash_links">PDF</a>
+                    </span>
+                    <p>Find a Health Center; Query Data; View Fact Sheets; Training & TA Hub. Behavioral<br/>
+                         Health; Care Teams; Child and Adolescent Health; Chronic and ... </p>
+                </div>
+                <div class="grants_one grants_three">
+                    <span class="line">
+                        <a href="#"  class="long_grant">Public health grants to local authorities: 2020 to 2021</a>
+                        <a href="#" class="next_to_grant ash_links">Link</a>
+                    </span>
+                    <p>Find a Health Center; Query Data; View Fact Sheets; Training & TA Hub. Behavioral<br/>
+                         Health; Care Teams; Child and Adolescent Health; Chronic and ... </p>
+                    <a href="#" class="link_below">www.hrsa.gov/grants/index.html</a>
+                </div>
+                <div class="grants_one grants_four">
+                    <span class="line">
+                        <a href="#"  class="long_grant">CDC - Community Health Funding - NCCDPHP: Comm...</a>
+                        <a href="#" class="next_to_grant ash_links">Link</a>
+                    </span>
+                    <p>Find a Health Center; Query Data; View Fact Sheets; Training & TA Hub. Behavioral<br/>
+                         Health; Care Teams; Child and Adolescent Health; Chronic and ... </p>
+                    <a href="#" class="link_below">www.cdc.gov/nccdphp/dch/community-health-funding/index.html</a>
+                </div>
+                <div class="numbered_navigation">
+                    <a href="#" class="number_1">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">...</a>
+                    <a href="#">10</a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="popular_topics">
+                    <h2>Popular Topics</h2>
+                    <span class="how_it_works" >
+                        <img src="images/Getting Started.png" width="40px" height="38px">
+                        <p>How it Works</p>
+                    </span>
+                    <span class="how_it_works">
+                        <img src="images/Getting Started-1.png" width="40px" height="38px">
+                        <p>Trending Searches</p>
+                    </span>
+                    <span class="how_it_works">
+                        <img src="images/Getting Started-2.png" width="40px" height="38px">
+                        <p>Contribute</p>
+                    </span>
+                </div>
+                <div class="green_box">
+                    <p class="satisfied">Are you satisfied with search<br/> results?</p>
+                    <span class="yes_no">
+                        <a href="#" class="no">No</a>
+                        <a href="#" class="yes">Yes</a>
+                    </span>
+                </div>
+                <div class="blue_box">
+                    <p class="enterprise">Do you Want to search your enterprise data?</p>
+                    <p class="contact">Contact us today to know about how you can search your enterprise data like database, pdf, documents and web links.</p>
+                    <button class="blue_no" href="#">No</button>
+                </div>
+                
+            </div>
+        </section>
+    </body>
+</html>
